@@ -8,7 +8,7 @@ arr.each do |word|
   x  = word.chars.collect do |letter|
     spanish_array.find_index(letter)
 end
-puts x
+print x
 end  
 
 
