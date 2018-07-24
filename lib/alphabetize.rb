@@ -2,12 +2,13 @@ def alphabetize(arr)
   spanish = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   spanish_array = spanish.chars
 
-
+ 
 arr.each do |word|
   puts word
-  word.chars.collect do |letter|
+  x  = word.chars.collect do |letter|
     spanish_array.find_index(letter)
 end
+puts x
 end  
 
 
