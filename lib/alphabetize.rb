@@ -13,3 +13,5 @@ def alphabetize(arr)
 sorted_array
 end
 
+expressions = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"]
+puts alphabetize(expressions)
