@@ -1,3 +1,15 @@
 def alphabetize(arr)
-  # code here
+  spanish = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  spanish_array = spanish.chars
+
+
+ sorted_array =  arr.sort_by do |word|
+   word.chars.collect do |letter|
+     spanish_array.find_index(letter)
+   end
+  end
+
+
+sorted_array
 end
+
