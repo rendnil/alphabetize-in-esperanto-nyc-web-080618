@@ -5,7 +5,9 @@ def alphabetize(arr)
 
 arr.each do |word|
   puts word
-
+  word.chars.collect do |letter|
+    spanish_array.find_index(letter)
+end
 end  
 
 
